@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "todo": "npx cypress run --headed --browser chrome --spec cypress/e2e/1-getting-started/todo.cy.js",  
+    "todo": "npx cypress run --headed --browser chrome --spec cypress/e2e/1-getting-started/todo.cy.js",
     "firstDay": "npx cypress run --headed --browser chrome --spec cypress/e2e/day_01/*"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^10.7.0"
+    "cypress": "^10.7.0",
+    "cypress-xpath": "^2.0.1"
   }
 }
