@@ -4,6 +4,7 @@ module.exports = defineConfig({
 
   hideXHR: true,
   e2e: {
+   // baseUrl:'https://demoqa.com/',
     watchForFileChanges: false,
     video: false,
     setupNodeEvents(on, config) {
