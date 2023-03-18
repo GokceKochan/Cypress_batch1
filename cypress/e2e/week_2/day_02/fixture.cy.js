@@ -1,12 +1,12 @@
 
 // yeni yontem ES6 sonrasi
-import example2 from '../../fixtures/example.json'
+import example2 from '../../../fixtures/example.json'
 
 describe('fixture', () => {
 
 
     // eski yontem ES6 oncesi
-    const example = require('../../fixtures/example.json')
+    const example = require('../../../fixtures/example.json')
 
     it('ficxture 1 - 1', () => {
 
