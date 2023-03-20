@@ -49,7 +49,7 @@ describe('within calismasi', () => {
     });
 
 
-    it.only('within 2', () => {
+    it('within 2', () => {
         cy.visit('https://www.automationteststore.com/')
         const productNames = [ "Skinsheen Bronzer Stick", "BeneFit Girl Meets Pearl", "Benefit Bella Bamba", "Tropiques Minerale Loose Bronzer" ]
         const productPrice = [ "$29.50", "$19.00", "$28.00", "$38.50" ]
