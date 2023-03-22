@@ -1,5 +1,9 @@
 describe('',()=>{
     
+    beforeEach(() => {
+        cy.visit('https://testautomationpractice.blogspot.com/')
+     
+    });
     it('clear calismasi', () => {
         cy.get('#field1')
             .clear()
